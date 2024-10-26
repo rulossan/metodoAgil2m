@@ -1,39 +1,19 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     font-family: Noto Sans;
+    background-color: rgb(249, 243, 241);
     height: 100%;
-    margin: 0;
 }
-
-
-.banner{
-    background-image: url("../img/pexels.jpg");
-    background-size: cover;
-    background-position: top center;
-    background-attachment: fixed;
-    padding: 25%;
-    z-index: 1;
-    position: relative;
-}
-
-.banner::after{
-    content: "";
-    position: absolute;
-    background-color: rgb(189, 183, 183);
-    opacity: 0.5;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top:0;
-    left:0;
-}
-.banner h2{
-    color: black;
-}
-.banner p{
+.frase{
     font-size: 1.5rem;
+    font-family:cursive;
+    padding: 0 50px 50px 50px;
+}
+.container{
+    background-color: whitesmoke;
+    padding: 15px 100px;
+    border-radius: 1.5px;
 }
 .footer-icon {
     width: 30px;
